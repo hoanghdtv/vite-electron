@@ -1,13 +1,13 @@
 # https://www.electron.build/configuration/configuration
 
 appId: br.laserteck.softeck
-asar: true
+asar: false
 directories:
   output: release/${version}
 
 files:
 - dist
-- electron
+- electron-main
 
 mac:
   artifactName: "${productName}_${version}.${ext}"

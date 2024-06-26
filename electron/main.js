@@ -25,7 +25,7 @@ async function createWindow () {
     win.loadFile(join(__dirname, '../dist/index.html'))
   } else {
     win.loadURL('http://localhost:5173')
-    win.webContents.openDevTools()
+    // win.webContents.openDevTools()
   }
 
   // Make all links open with the browser, not with the application
