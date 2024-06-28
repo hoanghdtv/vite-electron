@@ -7,7 +7,8 @@ directories:
 
 files:
 - dist
-- electron-main
+- thing-editor/electron-main
+
 
 mac:
   artifactName: "${productName}_${version}.${ext}"

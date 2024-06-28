@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html>
+
+<head>
+	<link rel="stylesheet" href="./thing-editor/src/editor/style.css">
+	<link rel="stylesheet" href="./thing-editor/src/editor/style-timeline.css">
+	<meta charset="UTF-8">
+	<!--meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"><-->
+	<title>Thing Editor 2.0</title>
+	<script type="module" src="./thing-editor/src/editor/warnings-filter.ts"></script>
+	<script type="module" src="./thing-editor/src/editor/editor.ts"></script>
+</head>
+
+<body>
+	<div id="root"></div>
+	<div id="select-lists-root"></div>
+	<div id="context-menu-root"></div>
+</body>
+
 </html>

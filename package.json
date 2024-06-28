@@ -1,9 +1,9 @@
 {
-  "name": "vite-electron",
+  "name": "BCS",
   "version": "0.0.0",
-  "main": "electron-main/index.js",
+  "main": "thing-editor/electron-main/index.js",
   "author": {
-    "name": "Rafael Beraldo"
+    "name": "BCS"
   },
   "description": "Source from the Dev.to post",
   "keywords": [
