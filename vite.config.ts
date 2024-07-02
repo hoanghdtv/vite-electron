@@ -7,6 +7,7 @@ const IS_CI_RUN = process.env.IS_CI_RUN === 'true';
 
 /** @type {import('vite').UserConfig} */
 export default defineConfig({
+	base: './',
 	server: {
 		hmr: false,
 		watch: IS_CI_RUN ? {
@@ -24,8 +25,7 @@ export default defineConfig({
 		}
 	},
 	plugins: [
-		resolver,
-    react()
+		resolver,react()
 	],
 	esbuild: {
 		keepNames: true

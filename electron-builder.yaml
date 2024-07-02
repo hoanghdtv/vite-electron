@@ -8,6 +8,10 @@ directories:
 files:
 - dist
 - thing-editor/electron-main
+- thing-editor/img
+- thing-editor/demo
+- games
+- libs
 
 
 mac:

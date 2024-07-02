@@ -123,7 +123,8 @@ const { join } = require('path');
 				}, reloadAttemptDelayDelay);
 			});
 			if(app.isPackaged){
-				mainWindow.loadFile(join(__dirname, '../dist/index.html'));
+				mainWindow.loadFile(join(__dirname, '../../dist/index.html'));
+				mainWindow.openDevTools();
 				// mainWindow.loadURL(EDITOR_VITE_ROOT);
 			} else{
 				mainWindow.loadURL(EDITOR_VITE_ROOT);
